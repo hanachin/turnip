@@ -1,4 +1,5 @@
 require "pry"
+require 'turnip/capybara'
 
 RSpec.configure do |config|
   config.expect_with :rspec do |c|
